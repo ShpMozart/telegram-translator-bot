@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: telegram-translator-bot
+    runtime: python
+    buildCommand: ""
+    startCommand: python main.py
+    envVars:
+      - key: BOT_TOKEN
+        value: 8166245312:AAHS577hLSkHSIGaaI4d0rBBfNuwGSYTldU
